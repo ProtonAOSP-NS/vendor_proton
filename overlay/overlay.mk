@@ -20,3 +20,12 @@ PRODUCT_ENFORCE_RRO_TARGETS += framework-res
 
 # Lawnicons
 $(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
+
+ifeq ($(WITH_GMS),true)
+
+# Pixel Launcher
+PRODUCT_PACKAGES += \
+    NexusLauncherOverlay \
+    PixelLauncherConfigOverlay
+
+endif

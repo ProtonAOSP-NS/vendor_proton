@@ -13,6 +13,7 @@
 # limitations under the License.
 
 # Inherit vendor submodules
+$(call inherit-product, vendor/proton/build/common.mk)
 $(call inherit-product, vendor/proton/apps/apps.mk)
 $(call inherit-product, vendor/proton/bootanimation/bootanimation.mk)
 $(call inherit-product, vendor/proton/fonts/fonts.mk)

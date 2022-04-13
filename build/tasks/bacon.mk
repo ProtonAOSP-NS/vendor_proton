@@ -1,5 +1,9 @@
 BUILD_DATE := $(shell date +%Y%m%d)
+ifeq ($(WITH_GMS),true)
+CUSTOM_ROM_TARGET_PACKAGE := $(PRODUCT_OUT)/ProtonAOSP-$(CUSTOM_ROM_VERSION)-$(PRODUCT_DEVICE)-$(BUILD_DATE)-gapps.zip
+else
 CUSTOM_ROM_TARGET_PACKAGE := $(PRODUCT_OUT)/ProtonAOSP-$(CUSTOM_ROM_VERSION)-$(PRODUCT_DEVICE)-$(BUILD_DATE).zip
+endif
 
 .PHONY: bacon
 bacon: otapackage

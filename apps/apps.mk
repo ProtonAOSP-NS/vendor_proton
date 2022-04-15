@@ -46,6 +46,8 @@ ifeq ($(WITH_GMS),true)
 
 $(call inherit-product, vendor/gms/products/gms.mk)
 
+$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
+
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.rotation_locked=true \

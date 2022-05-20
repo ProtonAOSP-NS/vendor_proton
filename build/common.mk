@@ -20,6 +20,13 @@ PRODUCT_HOST_PACKAGES += \
     signapk \
     zipalign
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
+PRODUCT_COPY_FILES += \
+    vendor/proton/build/etc/init/init.protonaosp-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.protonaosp-updater.rc
+
 # Disable remote keyguard animation
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0

@@ -13,6 +13,10 @@
 # limitations under the License.
 
 CUSTOM_ROM_VERSION := 12.3.2-NS
+TARGET_PRODUCT_SHORT := $(subst aosp_,,$(TARGET_DEVICE))
 
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.build.version.custom=$(CUSTOM_ROM_VERSION)
+    ro.build.version.custom=$(CUSTOM_ROM_VERSION) \
+    ro.build.version.device=$(TARGET_PRODUCT_SHORT) \
+    ro.proton.build.version=$(CUSTOM_ROM_VERSION) \
+    ro.modversion=$(CUSTOM_ROM_VERSION)

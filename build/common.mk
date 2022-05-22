@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/proton/build/etc/init/init.protonaosp-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.protonaosp-updater.rc
 
+# Use the default charger mode images
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Disable remote keyguard animation
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0

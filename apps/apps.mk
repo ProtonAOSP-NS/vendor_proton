@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     ProtonWallpaperStub \
+    StatixThemePicker
 
 # Repainter integration
 PRODUCT_PACKAGES += \

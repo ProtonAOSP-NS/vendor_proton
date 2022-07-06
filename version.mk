@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CUSTOM_ROM_VERSION := 12.4.0-NS
+CUSTOM_ROM_VERSION := 12.4.1-NS
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(TARGET_DEVICE))
 
 ifeq ($(WITH_GMS),true)

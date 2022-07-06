@@ -293,4 +293,204 @@
         </font>
     </family>
     <alias name="roboto-system-medium" to="roboto-system" weight="500" />
+
+    <family customizationType="new-named-family" name="google-sans-inter">
+      <font weight="400" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="400"/>
+      </font>
+      <font weight="500" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+      <font weight="600" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="600"/>
+      </font>
+      <font weight="700" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+      <font weight="400" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="400"/>
+      </font>
+      <font weight="500" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+      <font weight="600" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="600"/>
+      </font>
+      <font weight="700" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-medium-inter">
+      <font weight="500" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-bold-inter">
+      <font weight="700" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="18.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-inter">
+      <font weight="400" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="400"/>
+      </font>
+      <font weight="500" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+      <font weight="600" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="600"/>
+      </font>
+      <font weight="700" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+      <font weight="400" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="400"/>
+      </font>
+      <font weight="500" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+      <font weight="600" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="600"/>
+      </font>
+      <font weight="700" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-medium-inter">
+      <font weight="500" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-bold-inter">
+      <font weight="700" style="normal">GInterVF-Roman.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-italic-inter">
+      <font weight="400" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="400"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-medium-italic-inter">
+      <font weight="500" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="500"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="google-sans-text-bold-italic-inter">
+      <font weight="700" style="italic">GInterVF-Italic.ttf
+        <axis tag="GRAD" stylevalue="0"/>
+        <axis tag="opsz" stylevalue="17.0"/>
+        <axis tag="wght" stylevalue="700"/>
+      </font>
+    </family>
+
+    <family customizationType="new-named-family" name="oneuisans">
+    <font weight="100" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="100"/>
+    </font>
+    <font weight="100" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="100"/>
+    </font>
+    <font weight="200" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="200"/>
+    </font>
+    <font weight="200" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="200"/>
+    </font>
+    <font weight="300" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="300"/>
+    </font>
+    <font weight="300" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="300"/>
+    </font>
+    <font weight="400" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="400" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="500" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="700" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="700" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="800" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="800" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="900" style="normal">OneUIRoman-VF.ttf
+        <axis tag="wght" stylevalue="900"/>
+    </font>
+    <font weight="900" style="italic">OneUIItalic-VF.ttf
+        <axis tag="wght" stylevalue="900"/>
+    </font>
+    </family>
+    <alias name="oneuisans-medium" to="oneuisans" weight="500" />
 </fonts-modification>

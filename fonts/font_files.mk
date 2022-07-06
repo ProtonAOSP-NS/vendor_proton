@@ -21,10 +21,14 @@ LOCAL_PATH := vendor/proton/fonts
 PRODUCT_PACKAGES += \
     CutiveMono.ttf \
     DroidSansMono.ttf \
+    GInterVF-Italic.ttf \
+    GInterVF-Roman.ttf \
     Roboto-Regular.ttf \
     Manrope-VF.ttf \
     NotoSans-Italic-VF.ttf \
     NotoSans-VF.ttf \
+    OneUIItalic-VF.ttf \
+    OneUIRoman-VF.ttf \
     Recursive-VF.ttf \
     RobotoFallback-VF.ttf \
     RobotoSystem-VF.ttf \

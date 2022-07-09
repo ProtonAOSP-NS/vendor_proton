@@ -21,12 +21,30 @@ LOCAL_PATH := vendor/proton/fonts
 PRODUCT_PACKAGES += \
     CutiveMono.ttf \
     DroidSansMono.ttf \
-    GInterVF-Italic.ttf \
-    GInterVF-Roman.ttf \
+    GoogleSans-Italic.ttf \
+    GoogleSans-Regular.ttf \
     Roboto-Regular.ttf \
-    Manrope-VF.ttf \
+    Manrope-Bold.otf \
+    Manrope-ExtraBold.otf \
+    Manrope-ExtraLight.otf \
+    Manrope-Light.otf \
+    Manrope-Medium.otf \
+    Manrope-Regular.otf \
+    Manrope-SemiBold.otf \
     NotoSans-Italic-VF.ttf \
     NotoSans-VF.ttf \
+    OnePlusSans-Black.ttf \
+    OnePlusSans-BlackItalic.ttf \
+    OnePlusSans-Bold.ttf \
+    OnePlusSans-BoldItalic.ttf \
+    OnePlusSans-Italic.ttf \
+    OnePlusSans-Light.ttf \
+    OnePlusSans-LightItalic.ttf \
+    OnePlusSans-Medium.ttf \
+    OnePlusSans-MediumItalic.ttf \
+    OnePlusSans-Regular.ttf \
+    OnePlusSans-Thin.ttf \
+    OnePlusSans-ThinItalic.ttf \
     OneUIItalic-VF.ttf \
     OneUIRoman-VF.ttf \
     Recursive-VF.ttf \

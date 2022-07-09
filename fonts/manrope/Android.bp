@@ -15,7 +15,43 @@
  */
 
 prebuilt_font {
-    name: "Manrope-VF.ttf",
-    src: "Manrope-VF.ttf",
+    name: "Manrope-Bold.otf",
+    src: "Manrope-Bold.otf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "Manrope-ExtraBold.otf",
+    src: "Manrope-ExtraBold.otf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "Manrope-Light.otf",
+    src: "Manrope-Light.otf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "Manrope-ExtraLight.otf",
+    src: "Manrope-ExtraLight.otf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "Manrope-Medium.otf",
+    src: "Manrope-Medium.otf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "Manrope-Regular.otf",
+    src: "Manrope-Regular.otf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "Manrope-SemiBold.otf",
+    src: "Manrope-SemiBold.otf",
     product_specific: true,
 }

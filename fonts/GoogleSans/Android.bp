@@ -1,0 +1,11 @@
+prebuilt_font {
+    name: "GoogleSans-Italic.ttf",
+    src: "GoogleSans-Italic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "GoogleSans-Regular.ttf",
+    src: "GoogleSans-Regular.ttf",
+    product_specific: true,
+}

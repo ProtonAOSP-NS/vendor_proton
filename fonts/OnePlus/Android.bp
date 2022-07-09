@@ -1,0 +1,72 @@
+prebuilt_font {
+    name: "OnePlusSans-Black.ttf",
+    src: "OnePlusSans-Black.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-BlackItalic.ttf",
+    src: "OnePlusSans-BlackItalic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-Bold.ttf",
+    src: "OnePlusSans-Bold.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-BoldItalic.ttf",
+    src: "OnePlusSans-BoldItalic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-Italic.ttf",
+    src: "OnePlusSans-Italic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-Light.ttf",
+    src: "OnePlusSans-Light.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-LightItalic.ttf",
+    src: "OnePlusSans-LightItalic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-Medium.ttf",
+    src: "OnePlusSans-Medium.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-MediumItalic.ttf",
+    src: "OnePlusSans-MediumItalic.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-Regular.ttf",
+    src: "OnePlusSans-Regular.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-Thin.ttf",
+    src: "OnePlusSans-Thin.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "OnePlusSans-ThinItalic.ttf",
+    src: "OnePlusSans-ThinItalic.ttf",
+    product_specific: true,
+}
+

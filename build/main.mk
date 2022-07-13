@@ -15,6 +15,9 @@
 # Custom ROM version
 -include vendor/proton/version.mk
 
+# Signing build
+-include vendor/keys/sign.mk
+
 # Override fingerprint for Google Play Services and SafetyNet
 ifneq ($(PRODUCT_OVERRIDE_FINGERPRINT),)
 ADDITIONAL_SYSTEM_PROPERTIES += \

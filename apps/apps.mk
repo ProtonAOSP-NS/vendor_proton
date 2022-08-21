@@ -49,7 +49,7 @@ PRODUCT_COPY_FILES += \
 # Google apps and services
 ifeq ($(WITH_GMS),true)
 
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/gms/gms.mk)
 
 $(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 

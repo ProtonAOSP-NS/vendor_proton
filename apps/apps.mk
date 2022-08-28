@@ -19,15 +19,11 @@ LOCAL_PATH := vendor/proton/apps
 # LineageOS apps
 PRODUCT_PACKAGES += \
     ExactCalculator \
-    Jelly \
+    Jelly
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
-    QuickAccessWallet \
-
-# Config
-PRODUCT_PACKAGES += \
-    SimpleDeviceConfig \
+    QuickAccessWallet
 
 # Wallpapers
 PRODUCT_PACKAGES += \
@@ -36,7 +32,7 @@ PRODUCT_PACKAGES += \
 
 # Repainter integration
 PRODUCT_PACKAGES += \
-    RepainterServicePriv \
+    RepainterServicePriv
 
 # Gamespace
 PRODUCT_PACKAGES += \
@@ -44,7 +40,7 @@ PRODUCT_PACKAGES += \
 
 # Permissions for Google product apps
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/default-permissions-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-product.xml \
+    $(LOCAL_PATH)/default-permissions-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-product.xml
 
 # Google apps and services
 ifeq ($(WITH_GMS),true)
@@ -56,15 +52,15 @@ $(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.rotation_locked=true \
-    setupwizard.theme=glif_v3_light \
+    setupwizard.theme=glif_v3_light
 
 # Google Assistant
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.opa.eligible_device=true \
+    ro.opa.eligible_device=true
 
 # Client ID
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.clientidbase=android-google \
+    ro.com.google.clientidbase=android-google
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/gms_overlay
@@ -73,7 +69,7 @@ endif
 
 # Sandboxed Google Play
 PRODUCT_PACKAGES += \
-    GmsCompat \
+    GmsCompat
 
 # Face Unlock
 PRODUCT_PACKAGES += \

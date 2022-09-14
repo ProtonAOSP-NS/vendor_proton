@@ -14,25 +14,11 @@
 
 LOCAL_PATH := vendor/proton/fonts
 
-# Copy font files
-include vendor/proton/fonts/font_files.mk
--include vendor/proton/fonts/extra/extra.mk
-
 # Register custom fonts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml \
+    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-# Overlays for UI font styles
+# fonts
 PRODUCT_PACKAGES += \
-    FontGoogleSansOverlay \
-    FontHKGroteskOverlay \
-    FontManropeOverlay \
-    FontNotoSansOverlay \
-    FontOnePlusSansOverlay \
-    FontOneUISansOverlay \
-    FontRecursiveCasualOverlay \
-    FontRecursiveLinearOverlay \
-    FontRobotoOverlay \
-    FontSourceSansOverlay \
-    FontSourceSerifOverlay \
-    FontHarmonyOSSansOverlay \
+    GoogleSans-Italic.ttf \
+    GoogleSans-Regular.ttf

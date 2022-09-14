@@ -26,6 +26,6 @@ ifeq ($(WITH_GMS),true)
 # Pixel Launcher
 PRODUCT_PACKAGES += \
     NexusLauncherOverlay \
-    PixelLauncherConfigOverlay \
-    PixelLauncherCustomOverlay
+    PixelLauncherConfigOverlay
+
 endif

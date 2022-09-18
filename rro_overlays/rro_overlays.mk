@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
     GoogleConfigOverlay \
     SystemUIGoogleOverlay \
     StorageManagerGoogleOverlay \
-    FlipendoOverlay \
-    ThemedIconsOverlay
+    FlipendoOverlay
 endif
 

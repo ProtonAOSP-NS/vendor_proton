@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
 # Google apps and services
 ifeq ($(WITH_GMS),true)
 
-$(call inherit-product, vendor/gms/gms.mk)
+$(call inherit-product, vendor/gapps/config.mk)
 
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \

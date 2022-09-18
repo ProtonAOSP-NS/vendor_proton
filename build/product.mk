@@ -18,6 +18,7 @@ $(call inherit-product, vendor/proton/apps/apps.mk)
 $(call inherit-product, vendor/proton/bootanimation/bootanimation.mk)
 $(call inherit-product, vendor/proton/fonts/fonts.mk)
 $(call inherit-product, vendor/proton/overlay/overlay.mk)
+$(call inherit-product, vendor/proton/rro_overlays/rro_overlays.mk)
 $(call inherit-product, vendor/proton/telephony/telephony.mk)
 $(call inherit-product, vendor/proton/audio/audio.mk)
 

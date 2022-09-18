@@ -35,5 +35,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.wm.enable_remote_keyguard_animation=0
 
+ifeq ($(WITH_GMS),true)
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
+endif

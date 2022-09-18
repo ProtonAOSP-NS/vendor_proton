@@ -1,3 +1,4 @@
+ifeq ($(WITH_GMS),true)
 # RRO Overlays
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \
@@ -31,3 +32,5 @@ PRODUCT_PACKAGES += \
     StorageManagerGoogleOverlay \
     FlipendoOverlay \
     ThemedIconsOverlay
+endif
+

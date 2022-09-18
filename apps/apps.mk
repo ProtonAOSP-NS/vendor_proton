@@ -27,16 +27,11 @@ PRODUCT_PACKAGES += \
 
 # Wallpapers
 PRODUCT_PACKAGES += \
-    ProtonWallpaperStub \
-    StatixThemePicker
+    ProtonWallpaperStub
 
 # Repainter integration
 PRODUCT_PACKAGES += \
     RepainterServicePriv
-
-# Gamespace
-PRODUCT_PACKAGES += \
-    GameSpace
 
 # Permissions for Google product apps
 PRODUCT_COPY_FILES += \
@@ -46,8 +41,6 @@ PRODUCT_COPY_FILES += \
 ifeq ($(WITH_GMS),true)
 
 $(call inherit-product, vendor/gms/gms.mk)
-
-$(call inherit-product, packages/overlays/ThemeIcons/config.mk)
 
 # SetupWizard
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -70,11 +63,3 @@ endif
 # Sandboxed Google Play
 PRODUCT_PACKAGES += \
     GmsCompat
-
-# Face Unlock
-PRODUCT_PACKAGES += \
-    FaceUnlockService
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face_unlock_service.enabled=true
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml

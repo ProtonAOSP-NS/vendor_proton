@@ -15,7 +15,7 @@
 CUSTOM_ROM_VERSION := 13.0.0-NS
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(TARGET_DEVICE))
 
-ifeq ($(WITH_GMS),true)
+ifneq ($(VANILLA_BUILD),true)
 BUILD_VARIANT := gapps
 else
 BUILD_VARIANT := vanilla

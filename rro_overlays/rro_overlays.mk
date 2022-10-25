@@ -1,4 +1,4 @@
-ifeq ($(WITH_GMS),true)
+ifneq ($(VANILLA_BUILD),true)
 # RRO Overlays
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \

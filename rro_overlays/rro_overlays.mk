@@ -2,7 +2,9 @@ ifneq ($(VANILLA_BUILD),true)
 # RRO Overlays
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \
+    PixelLauncherOverlay \
     PixelLauncherCustomOverlay \
+    PixelLauncherThemeResources \
     PixelDocumentsUIGoogleOverlay \
     BuiltInPrintServiceOverlay \
     GooglePermissionControllerOverlay \

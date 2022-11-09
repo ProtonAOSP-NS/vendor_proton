@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CUSTOM_ROM_VERSION := 13.0.0-NS
+CUSTOM_ROM_VERSION := 13.1.0-NS
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(TARGET_DEVICE))
 
 ifneq ($(VANILLA_BUILD),true)

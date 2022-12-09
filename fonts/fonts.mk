@@ -21,4 +21,5 @@ PRODUCT_COPY_FILES += \
 # fonts
 PRODUCT_PACKAGES += \
     GoogleSans-Italic.ttf \
-    GoogleSans-Regular.ttf
+    GoogleSans-Regular.ttf \
+    GoogleSansClock-Regular.ttf

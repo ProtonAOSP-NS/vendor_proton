@@ -50,6 +50,10 @@ PRODUCT_PACKAGES += \
 	libtextclassifier_actions_suggestions_universal_model \
 	libtextclassifier_lang_id_model
 
+# Enable SystemUIDialog volume panel
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    sys.fflag.override.settings_volume_panel_in_systemui=true
+
 ifneq ($(VANILLA_BUILD),true)
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \

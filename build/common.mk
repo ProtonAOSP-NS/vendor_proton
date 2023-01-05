@@ -60,6 +60,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.theme_id=5 \
     ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
 
+# Quick Tap
+PRODUCT_PACKAGES += \
+    quick_tap
+
 # SetupWizard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
